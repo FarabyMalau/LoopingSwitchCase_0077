@@ -12,7 +12,7 @@ float LuasLingkaran(float r){
 int main(){
     int pilihan;
     float panjang, lebar, jejari;
-    
+
     do{
         cout << "======Menu======" << endl;
         cout << "1. Menghitung Luas Persegi Panjang" << endl;
@@ -42,6 +42,7 @@ int main(){
                 cout << endl;
                 break;
             case 3 : 
+                cout << "Terima Kasih! 👌" << endl;
                 break;
             default :
                 cout << "Pilihan anda salah!" << endl;
